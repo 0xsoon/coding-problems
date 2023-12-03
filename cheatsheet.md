@@ -121,7 +121,7 @@ vector<int> vect(arra, arr + n);
 - Create a map of elements to frequency.
 - Sort, Max-Heap, Bucket Sort, Quick Sort
     - Map and Sort (nlogn)
-    ```
+    ```c++
     // Comparison function to sort the 'freq_arr[]'
     bool compare(pair<int, int> p1, pair<int, int> p2)
     {
@@ -139,8 +139,9 @@ vector<int> vect(arra, arr + n);
     // 'compare' function
     sort(freq_arr.begin(), freq_arr.end(), compare);
     ```
+
     - Max-Heap (DlogD)
-    ```
+    ```c++
     // priority queue 'pq' implemented as max heap on the
     // basis of the comparison operator 'compare' element
     // with the highest frequency is the root of 'pq' in
@@ -149,15 +150,17 @@ vector<int> vect(arra, arr + n);
                    compare>
         pq(mp.begin(), mp.end());
     ```
+
     - Bucket Sort (n || nlogn if the return value needs to be sorted)
-    ```
+    ```c++
     // Store the elements according to their frequency
     vector<vector<int> > frequency(N + 1);
 
     // Reverse index from the right (from the largest index)
     ```
+
     - Quick Select (nlogn)
-    ```
+    ```c++
     int partition(vector<pair<int, int>> &freqVec, int l, int r){
         int pivot = freqVec[r].first; 
         int storeIndex = l; 
