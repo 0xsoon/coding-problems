@@ -8,7 +8,7 @@
 - unordered_set: hashset
 
 #### iterating through map
-```
+```c++
 for (auto x: mp){
     ans.push_back(x.second); // x.first is the key
 }
