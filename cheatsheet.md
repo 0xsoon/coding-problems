@@ -7,14 +7,14 @@
 - set: binary search tree
 - unordered_set: hashset
 
-#### iterating through map
+#### Iterating through map
 ```c++
 for (auto x: mp){
     ans.push_back(x.second); // x.first is the key
 }
 ```
 
-```
+```c++
 double numbers[size] {0};
 int i2[row][column]
 
@@ -30,16 +30,13 @@ double TransportCosts[][cMarkets] = {
 
 ```
 
-#### initialize array with all zeros
-```
+#### Initialize array with all zeros
+```c++
 int sCharCount[26] = { 0 };
 ```
 
-#### string iterator
-```
-string iterator
----
-
+#### String iterator
+```c++
 // string::begin/end
 #include <iostream>
 #include <string>
@@ -55,14 +52,12 @@ int main ()
 }
 ```
 
-#### ascii
-```
+#### Ascii
 65 - 90 A-Z
 97 - 122 a-z
-```
 
-#### print array template
-```
+#### Print array template
+```c++
 // Print in Normal order
 std::copy(userInput.begin(),
           userInput.end(),
@@ -79,8 +74,8 @@ void print_array(T const(& arr)[n])
 }
 ```
 
-#### convert char to int using ascii code
-```
+#### Convert char to int using ascii code
+```c++
 // Count the frequency of characters in string s
 for (char x : s) {
     count[x - 'a']++;
@@ -92,8 +87,8 @@ for (char x : t) {
 }
 ```
 
-#### find target with complement
-```
+#### Find target with complement
+```c++
 // calculate the complement and check hashmap if it exists
 // if not then store the current number to the map 
 for (int i = 0;i < n; i++){
@@ -108,8 +103,8 @@ unordered_map<int, int> numMap;
 numMap.count(complement) // check if it exists
 ```
 
-#### vector
-```
+#### Vector
+```c++
 // Create a vector of size n with all values as 10 
 vector<int> vect(n, 10);
 
@@ -196,4 +191,3 @@ vector<int> vect(arra, arr + n);
         }
     }
     ```
-
