@@ -194,3 +194,13 @@ vector<int> vect(arra, arr + n);
         }
     }
     ```
+
+### Valid Sudoku
+- For each row, column, and square store sudoku elements based on its index
+- To save space O(n^2), use bitmasking O(n)
+    - Check if ith binary number is set to 1: x & (1 << i)
+        - (1 << i), number 1 is bit shifted to left
+        - & returns the union of bits; only the bits that are set in both numbers
+    - Set the ith bit of binary number x to 1: x = x  | (1 << i)
+        - | returns the bits that are set in the left or right operand
+
