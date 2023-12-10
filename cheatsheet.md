@@ -4,6 +4,15 @@
 1. [C++ Notes](#c++-notes )
 2. [Problem Sets](#problem-sets)
 
+## Python Notes
+
+### ASCII in Python
+```python
+character = chr(97) # >> a
+ascii_character = ord('a') # >> 97
+```
+
+
 ## C++ Notes
 
 ### Array and Strings 
