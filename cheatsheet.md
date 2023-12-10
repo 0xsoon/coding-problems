@@ -1,5 +1,9 @@
 # Cheatsheet for Interview Problems 
 
+# Table of Contents
+1. [C++ Notes](#c++-notes )
+2. [Problem Sets](#problem-sets)
+
 ## C++ Notes
 
 ### Array and Strings 
@@ -116,6 +120,8 @@ int n = sizeof(arr) / sizeof(arr[0]);
 
 vector<int> vect(arra, arr + n);
 ```
+
+## Problem Sets
 
 #### K Most Occuring Elements in the Given Array
 - Create a map of elements to frequency.
